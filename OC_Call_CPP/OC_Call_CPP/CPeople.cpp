@@ -22,7 +22,7 @@ CPeople::~CPeople()
 
 void CPeople::SayHello()
 {
-    printf("Hello World!\n");
+    printf("%s Hello World!\n",_name.c_str());
 }
 
 void CPeople::InitInfo(std::string name,int age,bool bBoy)
@@ -34,11 +34,12 @@ void CPeople::InitInfo(std::string name,int age,bool bBoy)
 
 void CPeople::ShowInfo()
 {
-    std::cout<< "name: " << _name.c_str() << "Age:" << _nAge;
+    std::cout<< _name.c_str();
     if (_bBoy)
-        std::cout<<" is Boy." <<std::endl;
+        std::cout<<" is a boy, ";
     else
-        std::cout<<" is girl." << std::endl;
+        std::cout<<" is a girl, ";
+    std::cout<< _nAge << " years old." << std::endl;
 }
 
 uint64_t CPeople::GetID()

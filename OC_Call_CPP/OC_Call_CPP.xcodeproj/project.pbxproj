@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0678E70320D65ED1000ECCDD /* ObjectClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0678E70220D65ED1000ECCDD /* ObjectClass.mm */; };
 		06B9FA5520D4697F007264EA /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 06B9FA5420D4697F007264EA /* main.mm */; };
 		06B9FA5D20D469B6007264EA /* CPeople.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06B9FA5B20D469B6007264EA /* CPeople.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0678E70220D65ED1000ECCDD /* ObjectClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectClass.mm; sourceTree = "<group>"; };
+		0678E70420D6631C000ECCDD /* ObjectClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectClass.h; sourceTree = "<group>"; };
 		06B9FA5120D4697F007264EA /* OC_Call_CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC_Call_CPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B9FA5420D4697F007264EA /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		06B9FA5B20D469B6007264EA /* CPeople.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPeople.cpp; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				06B9FA5420D4697F007264EA /* main.mm */,
+				0678E70420D6631C000ECCDD /* ObjectClass.h */,
+				0678E70220D65ED1000ECCDD /* ObjectClass.mm */,
 				06B9FA5B20D469B6007264EA /* CPeople.cpp */,
 				06B9FA5C20D469B6007264EA /* CPeople.hpp */,
 				06B9FA5F20D46C3D007264EA /* CContaintor.hpp */,
@@ -127,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06B9FA5D20D469B6007264EA /* CPeople.cpp in Sources */,
+				0678E70320D65ED1000ECCDD /* ObjectClass.mm in Sources */,
 				06B9FA5520D4697F007264EA /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +262,7 @@
 				06B9FA5A20D4697F007264EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

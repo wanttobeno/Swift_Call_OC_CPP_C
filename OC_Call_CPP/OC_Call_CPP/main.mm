@@ -17,6 +17,9 @@
 // stl 使用例子
 #import "CContaintor.hpp"
 
+// ObjectC 类中调用C++
+#import "ObjectClass.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -31,6 +34,11 @@ int main(int argc, const char * argv[]) {
     CContaintor<CPeople> vContain;
     vContain.Add(people);
     
+    // ObjectC 类中调用C++类
+    ObjectClass* pObjectClass = [[ObjectClass alloc] init];
+    [pObjectClass SetPeopleInfo:@"小红" :18 : FALSE];
+    [pObjectClass SayHello];
+
     
     return 0;
 }
