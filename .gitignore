@@ -22,9 +22,11 @@ Thumbs.db
 .clang_complete
 #*.xcodeproj/project.xcworkspace/
 *.xcodeproj/xcuserdata/
+*.xcuserstate
  
 # for IDEA
 */build/*
 .idea/*
 *.iml
 /out/*
+OC_Call_CPP/OC_Call_CPP.xcodeproj/project.xcworkspace/xcuserdata/hi.xcuserdatad/UserInterfaceState.xcuserstate
